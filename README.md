@@ -19,10 +19,10 @@ A modern, responsive web music player built with HTML, CSS, and JavaScript, inte
 ## 📦 Project structure
 
 deezer-music-player/
-├── index.html # Main HTML file
-├── style.css # CSS styles
-├── script.js # JavaScript logic
-└── README.md # Project documentation
+├── index.html # Main HTML file <br>
+├── style.css # CSS styles <br>
+├── script.js # JavaScript logic <br>
+└── README.md # Project documentation 
 
 ---
 
@@ -33,27 +33,30 @@ deezer-music-player/
    git clone https://github.com/yourusername/deezer-music-player.git
    cd deezer-music-player
 2. Install dependencies
-  (No dependencies required — pure HTML/CSS/JS)
+  <ul>(No dependencies required — pure HTML/CSS/JS)</ul>
 
 3. Obtain API Key
+<ul>
+  <li>Sign up at RapidAPI.</li>
 
-  Sign up at RapidAPI.
+  <li>Subscribe to the Deezer API.</li>
 
-  Subscribe to the Deezer API.
-
-  Copy your x-rapidapi-key.
+  <li>Copy your x-rapidapi-key.</li>
+</ul>
 
 4. Configure API Key
+<ul>
+  <li>Open script.js</li>
 
-  Open script.js
+  <li>Replace the placeholder:</li>
 
-  Replace the placeholder:
-
-  xhr.setRequestHeader("x-rapidapi-key", "YOUR_API_KEY_HERE");
-
+  <li>xhr.setRequestHeader("x-rapidapi-key", "YOUR_API_KEY_HERE");</li>
+</ul>
 5. Run the app
+<ul>
 
-Open index.html in your browser.
+<li>Open index.html in your browser.</li>
+</ul>
 
 ---
 
