@@ -88,4 +88,4 @@ Surya Pratap Singh
 
 GitHub: @Surya821
 
-LinkedIn: Surya Pratap Singh
+LinkedIn: surya-pratap-singh1
