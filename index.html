@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="background"></div>
+
+    <div class="container">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search for a song...">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div class="player">
+            <img id="albumImage" src="" alt="Album Cover" class="album-cover" style="display: none;">
+            <div class="song-title" id="songTitle">Search a song</div>
+            <div class="artist" id="artist">...</div>
+            <div class="progress-container">
+                <span class="time" id="currentTime">0:00</span>
+                <input type="range" id="progressBar" value="0" min="0" max="100">
+                <span class="time" id="duration">0:30</span>
+            </div>
+            <div class="controls">
+                <button class="btn" id="playPauseBtn">
+                    <svg id="playIcon" viewBox="0 0 24 24" width="28" height="28" fill="white">
+                        <path d="M8 5v14l11-7z" />
+                    </svg>
+                    <svg id="pauseIcon" viewBox="0 0 24 24" width="28" height="28" fill="white" style="display: none;">
+                        <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+                    </svg>
+                </button>
+            </div>
+
+
+        </div>
+
+        <audio id="audio" src=""></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
