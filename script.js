@@ -91,7 +91,7 @@ searchBtn.addEventListener("click", () => {
   });
 
   xhr.open("GET", `https://deezerdevs-deezer.p.rapidapi.com/search?q=${encodeURIComponent(query)}`);
-  xhr.setRequestHeader("x-rapidapi-key", "apiKey");
-  xhr.setRequestHeader("x-rapidapi-host", "Host");
+  xhr.setRequestHeader("x-rapidapi-key", "bd22a99ca8msh2bb5e1693ee7702p1a8e5fjsn4c36369ccfa0");
+  xhr.setRequestHeader("x-rapidapi-host", "deezerdevs-deezer.p.rapidapi.com");
   xhr.send();
 });
