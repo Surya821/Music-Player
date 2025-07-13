@@ -6,6 +6,13 @@ A modern, responsive web music player built with HTML, CSS, and JavaScript, inte
 
 ---
 
+## 🔗 Live Demo
+
+Check out the live project here:  
+👉 [Link](https://surya821.github.io/Music-Player/)
+
+---
+
 ## ✨ Features
 
 - 🔍 **Search songs** via Deezer API  
