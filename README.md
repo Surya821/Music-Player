@@ -33,28 +33,29 @@ deezer-music-player/
    git clone https://github.com/yourusername/deezer-music-player.git
    cd deezer-music-player
 2. Install dependencies
-  <ul><li>(No dependencies required — pure HTML/CSS/JS)</li></ul>
+<ul>
+<li>(No dependencies required — pure HTML/CSS/JS)</li>
+</ul>
 
 3. Obtain API Key
 <ul>
-  <li>Sign up at RapidAPI.</li>
+<li>Sign up at RapidAPI.</li>
 
-  <li>Subscribe to the Deezer API.</li>
+<li>Subscribe to the Deezer API.</li>
 
-  <li>Copy your x-rapidapi-key.</li>
+<li>Copy your x-rapidapi-key.</li>
 </ul>
 
 4. Configure API Key
 <ul>
-  <li>Open script.js</li>
+<li>Open script.js</li>
 
-  <li>Replace the placeholder:</li>
+<li>Replace the placeholder:</li>
 
-  <li>xhr.setRequestHeader("x-rapidapi-key", "YOUR_API_KEY_HERE");</li>
+<li>xhr.setRequestHeader("x-rapidapi-key", "YOUR_API_KEY_HERE");</li>
 </ul>
 5. Run the app
 <ul>
-
 <li>Open index.html in your browser.</li>
 </ul>
 
