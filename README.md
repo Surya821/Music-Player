@@ -33,7 +33,7 @@ deezer-music-player/
    git clone https://github.com/yourusername/deezer-music-player.git
    cd deezer-music-player
 2. Install dependencies
-  <ul>(No dependencies required — pure HTML/CSS/JS)</ul>
+  <ul><li>(No dependencies required — pure HTML/CSS/JS)</li></ul>
 
 3. Obtain API Key
 <ul>
